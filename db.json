@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Wayne",
+      "mail": "n123",
+      "pwd": "n123"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "多色餅乾",
+      "price": 230,
+      "imgUrl": "https://images.unsplash.com/photo-1619685350081-854862f9cbb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+    },
+    {
+      "id": 2,
+      "name": "綠色馬卡龍",
+      "price": 80,
+      "imgUrl": "https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 3,
+      "name": "甜蜜左擁右抱",
+      "price": 160,
+      "imgUrl": "https://images.unsplash.com/photo-1568827999250-3f6afff96e66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+    },
+    {
+      "id": 4,
+      "name": "濃情巧克力",
+      "price": 190,
+      "imgUrl": "https://images.unsplash.com/photo-1542843137-8791a6904d14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 5,
+      "name": "威士忌布朗尼",
+      "price": 200,
+      "imgUrl": "https://images.unsplash.com/photo-1570145820259-b5b80c5c8bd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "productId": 5,
+      "amount": 2,
+      "serial": 1676278236753,
+      "userId": 1
+    },
+    {
+      "productId": 5,
+      "amount": 2,
+      "serial": 1676428264435,
+      "userId": 1,
+      "id": 2
+    }
+  ]
+}
